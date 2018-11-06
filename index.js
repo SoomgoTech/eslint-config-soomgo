@@ -17,11 +17,9 @@ module.exports = {
         },
     },
     // https://github.com/feross/standard/blob/master/RULES.md#javascript-standard-style
-    extends: 'standard',
+    extends: [ 'standard', 'plugin:react/recommended' ],
     // required to lint *.vue files
-    plugins: [
-        'html'
-    ],
+    plugins: [ 'html', 'react' ],
     // add your custom rules here
     rules: {
         'arrow-parens': 0,
@@ -37,7 +35,9 @@ module.exports = {
             "imports": "never",
             "exports": "never",
             "functions": "never"
-        }]
+        }],
+        'react/jsx-uses-react': 'error',
+        'react/jsx-uses-vars': 'error',
     },
     globals: {
         ua: true
