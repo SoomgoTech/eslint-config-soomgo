@@ -23,6 +23,7 @@
     "es2018"
   ],
   "author": "Evan Moon (evan@soomgo.com)",
+  "contributors": [],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/SoomgoTech/eslint-config-soomgo/issues"
