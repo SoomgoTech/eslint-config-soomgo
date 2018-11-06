@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-soomgo",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Soomgo JavaScript eslint config",
   "main": "index.js",
   "scripts": {
