@@ -1,0 +1,37 @@
+{
+  "name": "eslint-config-soomgo",
+  "version": "1.0.0",
+  "description": "Soomgo JavaScript eslint config",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SoomgoTech/eslint-config-soomgo.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "soomgo",
+    "javascript",
+    "styleguide",
+    "es2015",
+    "es2016",
+    "es2017",
+    "es2018"
+  ],
+  "author": "Evan Moon (evan@soomgo.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SoomgoTech/eslint-config-soomgo/issues"
+  },
+  "homepage": "https://github.com/SoomgoTech/eslint-config-soomgo#readme",
+  "engines": {
+    "node": ">=5"
+  },
+  "dependencies": {
+
+  }
+}
