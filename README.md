@@ -2,7 +2,7 @@
 
 # eslint-config-standard 
 
-[npm-image]: https://img.shields.io/npm/v/eslint-config-standard.svg
+[npm-image]: https://img.shields.io/npm/v/eslint-config-soomgo.svg
 [npm-url]: https://www.npmjs.com/package/eslint-config-soomgo
 
 ## Install
