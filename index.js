@@ -12,14 +12,7 @@ module.exports = {
     parserOptions: {
         ecmaVersion: 8,
         sourceType: 'module',
-        ecmaFeatures: {
-            jsx: true,
-        },
     },
-    // https://github.com/feross/standard/blob/master/RULES.md#javascript-standard-style
-    extends: ['standard', 'plugin:react/recommended'],
-    // required to lint *.vue files
-    plugins: ['html', 'react'],
     // add your custom rules here
     rules: {
         'arrow-parens': 0,
@@ -36,8 +29,6 @@ module.exports = {
             "exports": "never",
             "functions": "never"
         }],
-        'react/jsx-uses-react': 'error',
-        'react/jsx-uses-vars': 'error',
     },
     globals: {
         ua: true
