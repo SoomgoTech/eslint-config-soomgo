@@ -17,19 +17,19 @@ module.exports = {
         },
     },
     // https://github.com/feross/standard/blob/master/RULES.md#javascript-standard-style
-    extends: [ 'standard', 'plugin:react/recommended' ],
+    extends: ['standard', 'plugin:react/recommended'],
     // required to lint *.vue files
-    plugins: [ 'html', 'react' ],
+    plugins: ['html', 'react'],
     // add your custom rules here
     rules: {
         'arrow-parens': 0,
         'generator-star-spacing': 0,
-        'indent': [ 'error', 4 ],
-        'semi': [ 'error', 'always' ],
-        'brace-style': [ 'error', 'stroustrup' ],
+        'indent': ['error', 4],
+        'semi': ['error', 'always'],
+        'brace-style': ['error', 'stroustrup'],
         'no-undef': 'error',
-        'no-trailing-spaces': [ 'error', { skipBlankLines: true } ],
-        'comma-dangle': [ 'error', {
+        'no-trailing-spaces': ['error', { skipBlankLines: true }],
+        'comma-dangle': ['error', {
             "arrays": "never",
             "objects": "always-multiline",
             "imports": "never",
